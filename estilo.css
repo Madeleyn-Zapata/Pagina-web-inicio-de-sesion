@@ -1,0 +1,93 @@
+*
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #5c1015;
+}
+.container {
+    display: flex;
+    background-color: white;
+    overflow: hidden;
+}
+.logo-section {
+    background-color:#fff2df;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-section h2 {
+    font-size: 50px;
+    color: #000000
+    margin-top: 0px;
+}
+
+.logo-section p {
+    font-size: 18px;
+    color: #1b1717;
+    margin-top: -35px;
+}
+
+.login-section {
+    background-color: #4E342E;
+    padding: 40px;
+    width: 300px;
+}
+
+.login-section P {
+    font-style: oblique;
+    font-size: 10px;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="email"], input[type="password"], input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 4px solid #FFFFFF;
+    border-radius: 10px;
+    background: transparent;
+    margin-top: 18px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color:#FFFFFF
+    color:aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.register-link {
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.register-link a {
+    color: #858585;
+    text-decoration: none;
+}
+
+.register-link p {
+    font-size: 15px;
+}
+
+.register-link img {
+    width: 55px;
+}
